@@ -1,0 +1,97 @@
+body {
+    background: url(https://p1.pxfuel.com/preview/7/528/878/abstract-fractal-mystical-magic.jpg);
+    background-size: cover;
+}
+#global{
+    width: 900px;
+    height: 950px;
+    background-color: rgba(95, 158, 160, 0);
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+}
+#par{
+    padding: 20px 50px;
+    border-bottom: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+#input {
+    padding: 10px 40px;
+    background-color: rgba(74, 151, 74, 0.486);
+    border: 0;
+    box-shadow: 0 0 10px black;
+    margin-top: 20px;
+    opacity: .7;
+}
+#pole{
+    width: 750px;
+    height: 500px;
+    background: url(https://th.bing.com/th/id/R.6fc3cb051d047f95b8b917fa7dcc1be0?rik=dh4Nn2p5diAHwA&riu=http%3a%2f%2ftarot-way.ru%2fwp-content%2fuploads%2f2016%2f06%2fJj548J9qv1I.jpg&ehk=4Me3rF%2b5GjOH2crGdEc7vbYcd8gRSAWVt7wnEPGpqSA%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+#player{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all .4s linear;
+    position: relative;
+ 
+}
+#global button{
+    padding: 10px 15px;
+    background-color: rgba(80, 82, 80, 0.466);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#gamepad{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 150px;
+    bottom: 390px;
+
+}
+#top {
+    align-items: center;
+    color: white;
+}
+#down{
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+#lr{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+#lr button{
+    margin-right: 50px;
+    margin-left: -16px;
+    color: rgb(255, 255, 255);
+}
+#start{
+    margin-right: 500px;
+    color: white;
+}
+#color{
+    margin-top: 20px;
+    margin-right: 500px;
+}
+.text h2 {
+    text-align: center;
+    font-size: 37px;
+    color: rgba(255, 255, 255, 0.726);
+
+}.text p {
+    text-align: center;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.726);
+
+}
